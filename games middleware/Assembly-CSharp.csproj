@@ -63,8 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Object_Manager.cs" />
     <Compile Include="Assets\Scripts\Plane_script.cs" />
     <Compile Include="Assets\Scripts\Sphere.cs" />
+    <Compile Include="Assets\Scripts\Sphere_physics.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -594,31 +596,31 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.12f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/gm/games middleware/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/gm/GamesMiddlewareModestasC/games middleware/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/gm/games middleware/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/gm/GamesMiddlewareModestasC/games middleware/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/gm/games middleware/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/gm/GamesMiddlewareModestasC/games middleware/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/gm/games middleware/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/gm/GamesMiddlewareModestasC/games middleware/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/gm/games middleware/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/gm/GamesMiddlewareModestasC/games middleware/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/gm/games middleware/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/gm/GamesMiddlewareModestasC/games middleware/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/gm/games middleware/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/gm/GamesMiddlewareModestasC/games middleware/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/gm/games middleware/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/gm/GamesMiddlewareModestasC/games middleware/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/gm/games middleware/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/gm/GamesMiddlewareModestasC/games middleware/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,11 +10,13 @@ public class Plane_script : MonoBehaviour
 
     public Vector3 normal { get { return normal_to_plane; }  }
 
+    public Vector3 plane_point;
+    public Vector3 plane_normal;
 
     // Start is called before the first frame update
     void Start()
     {
-        define_plane(new Vector3(0, -2, 0), new Vector3(0.02f, 1, 0));
+        define_plane(plane_point, plane_normal);
     }
 
     // Update is called once per frame
@@ -31,6 +34,11 @@ public class Plane_script : MonoBehaviour
         transform.up = normal_to_plane;
 
 
+    }
+
+    internal bool CollidesWith(Sphere_physics sphere)
+    {
+        return distance_to(sphere.transform.position) < sphere.radius_of_sphere;  
     }
 
     public float  distance_to(Vector3 point)
